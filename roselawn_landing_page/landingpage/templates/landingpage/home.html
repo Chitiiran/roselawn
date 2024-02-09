@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <title>Roselawn Carpentry</title>
+</head>
+<body>
+<nav class="container-fluid">
+    <ul>
+        <li><strong>Roselawn Carpentry</strong></li>
+    </ul>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact" role="button">Contact Us</a></li>
+    </ul>
+</nav>
+<main class="container">
+    <div class="grid">
+        <section>
+            <hgroup>
+                <h2>Welcome to Roselawn Carpentry</h2>
+                <h3>Your trusted partner for bespoke carpentry solutions</h3>
+            </hgroup>
+            <p>We specialize in custom woodworking projects, including furniture, cabinetry, and home decor. Our commitment to quality craftsmanship ensures that every piece is a work of art.</p>
+            <figure>
+                <img src="https://source.unsplash.com/featured/?carpentry" alt="Carpentry Work" />
+                <figcaption>Explore our projects</figcaption>
+            </figure>
+            <h3>Gallery</h3>
+            <p>Discover our recent projects and the craftsmanship behind each creation.</p>
+            <div id="gallery" class="grid">
+                <img src="https://source.unsplash.com/featured/?woodwork" alt="Woodwork" />
+                <img src="https://source.unsplash.com/featured/?woodcraft" alt="Woodcraft" />
+                <img src="https://source.unsplash.com/featured/?carpentry" alt="Carpentry" />
+            </div>
+            <h3>Contact Us</h3>
+            <p>Have a project in mind? Let's talk. Reach out to us through the form below.</p>
+        </section>
+    </div>
+</main>
+<section aria-label="Subscribe example" id="contact">
+    <div class="container">
+        <article>
+            <hgroup>
+                <h2>Contact Us</h2>
+                <h3>We'd love to hear from you</h3>
+            </hgroup>
+            <form class="grid" onsubmit="event.preventDefault()">
+                <input type="text" id="firstname" name="firstname" placeholder="Your Name" aria-label="Your Name" required />
+                <input type="email" id="email" name="email" placeholder="Your Email" aria-label="Your Email" required />
+                <textarea id="message" name="message" placeholder="Your Message" aria-label="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </article>
+    </div>
+</section>
+<footer class="container">
+    <small>
+        <a href="#">Privacy Policy</a> • <a href="#">Terms of Service</a>
+    </small>
+</footer>
+</body>
+</html>
