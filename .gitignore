@@ -3,4 +3,4 @@ __pycache__/
 db.sqlite3
 .env
 venv/
-../roselawn_202402/
+../roselawn_202402/*
