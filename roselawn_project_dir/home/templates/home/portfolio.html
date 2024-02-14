@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+    <!-- Add links to your CSS files here -->
+</head>
+
+<body>
+    <h1>Our Portfolio</h1>
+    {% load static %}
+
+    <div class="portfolio-item">
+        <h2>Title of Project 1</h2>
+        <!-- Ensure the path matches the file location in your media folder -->
+        <img src="{{ MEDIA_URL }}portfolio_images/20231020_122630.jpg" alt="Description of Project 1">
+        <p>Description of Project 1</p>
+    </div>
+    
+    <div class="portfolio-item">
+        <h2>Title of Project 2</h2>
+        <!-- Adjust the filename to match your actual image file -->
+        <img src="{{ MEDIA_URL }}portfolio_images/20231031_165702.jpg" alt="Description of Project 2">
+        <p>Description of Project 2</p>
+    </div>
+</body>
+
+</html>
