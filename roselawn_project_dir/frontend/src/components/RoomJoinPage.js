@@ -6,6 +6,6 @@ export default class RoomJoinPage extends Component {
     }
 
     render() {
-        return <p>Paragrapgh from RoomJoinPage</p>
+        return <p>Paragrapgh from RoomJoinPage latest 1246</p>
     }
 }
